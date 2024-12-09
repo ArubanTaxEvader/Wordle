@@ -1,0 +1,87 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #494848, rgb(167, 114, 114));
+    margin: 0;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#maingame {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocks {
+    border: 2px solid black;
+    margin: 2.5px;
+    display: flex;
+    justify-content: center;
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+}
+
+.correct {
+    background-color: #2bd41b;
+    color: white;
+    border-color: black;
+}
+
+.yellow {
+    background-color: #e2b903;
+    color: white;
+    border-color: black;
+}
+
+.gray {
+    background-color: #787C7E;
+    color: white;
+    border-color:black;
+}
+
+
+.keyboardrow {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.keyonkeyboard {
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid rgb(0, 0, 0);
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pressedkey {
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid rgb(0, 0, 0);
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
